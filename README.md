@@ -7,7 +7,7 @@
 ### Description
 [Click Here](https://docuchat-pdf.streamlit.app/) to view the deployed DocuChat Model with GeminiPro and FAISS VectorEmbedding.
 
-### How to run DocuChatv1?
+## How to run DocuChatv1?
 To use the DocuChatv1 in Google Colab,follow these steps:
 
 1. Visit the Google colab file by clicking [here](https://colab.research.google.com/drive/1cefEldBlukCTfm-x_Qpg3hgwompKm1qQ?usp=sharing)
