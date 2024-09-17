@@ -51,6 +51,7 @@ pinecone_index = PC.from_texts(
 8. Add the API Keys to Colab:
    1. Add all the API Keys to the Secrets section of your Colab File
 9. Run all the cells of the Colab File
+![Alt text](https://github.com/soham2002/DocuChat/blob/main/static/GC_Lab.png)
 
 ## How to run DocuChatv2?
 To use the DocuChatv2 in your local system,follow these steps:
@@ -70,3 +71,4 @@ To use the DocuChatv2 in your local system,follow these steps:
       streamlit run app.py
       ```
 5. You are good to go!
+![Alt text](https://github.com/soham2002/DocuChat/blob/main/static/DocuChat_SC.png)
