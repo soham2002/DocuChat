@@ -18,9 +18,9 @@ To use the DocuChatv1 in Google Colab,follow these steps:
     2. Click on Create API Key and copy the generated key.
       
  5. Create a Pinecone Index:
-   1. Click on Create Index.
-   2. Choose an index name, set the dimension (e.g., 768 for BERT-based models), and specify the metric (e.g., cosine similarity).
-   3. Click Create.
+    1. Click on Create Index.
+    2. Choose an index name, set the dimension (e.g., 768 for BERT-based models), and specify the metric (e.g., cosine similarity).
+    3. Click Create.
 
 
 ```bash
