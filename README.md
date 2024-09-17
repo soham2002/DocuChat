@@ -50,4 +50,23 @@ pinecone_index = PC.from_texts(
        
 8. Add the API Keys to Colab:
    1. Add all the API Keys to the Secrets section of your Colab File
+9. Run all the cells of the Colab File
 
+## How to run DocuChatv2?
+To use the DocuChatv2 in your local system,follow these steps:
+
+1. Install the required Python packages:
+
+    ```bash
+    pip install requirements.txt
+    ```
+2. Create a .env file:
+   ```bash
+   GEMINI_API_KEY = "Enter your Gemini Api Key"
+   ```
+4. Run the DocuChatv2 by running the following code in the terminal:
+
+      ```bash
+      streamlit run app.py
+      ```
+5. You are good to go!
