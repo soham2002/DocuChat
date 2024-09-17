@@ -21,11 +21,23 @@ To use the DocuChatv1 in Google Colab,follow these steps:
     1. Click on Create Index.
     2. Choose an index name, set the dimension (e.g., 768 for BERT-based models), and specify the metric (e.g., cosine similarity).
     3. Click Create.
-
-
+ 
+ 6. Change the Index Name to your own Index Name
 ```bash
-HF_KEY = os.environ.get('HF_API')
-PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY')
+pc = Pinecone(api_key=PINECONE_API_KEY)
+index_name = pc.Index('ragchat') #change it to your pinecone index name
+
+from langchain.vectorstores import Pinecone as PC
+
+os.environ['PINECONE_API_KEY']
+
+docs_chunks = [t.page_content for t in docs]
+pinecone_index = PC.from_texts(
+    docs_chunks,
+    embeddings,
+    index_name='ragchat' #change it to your Pinecone Index
+
+)
 ```
 
 6. Set Up Hugging Face API
