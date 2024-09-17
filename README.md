@@ -12,14 +12,10 @@ To use the DocuChatv1 in Google Colab,follow these steps:
 
  1. Visit the Google colab file by clicking [here](https://colab.research.google.com/drive/1cefEldBlukCTfm-x_Qpg3hgwompKm1qQ?usp=sharing)
  2. Create a copy of the Colab file on your drive
- 3. Set Up Pinecone API
-   1. Create a Pinecone Account.
-   2. Visit Pinecone.
-   3. Sign up or log in.
-      
- 4. Generate Pinecone API Key:
-   1. Once logged in, navigate to the API Keys section in the Pinecone dashboard.
-   2. Click on Create API Key and copy the generated key.
+ 
+ 3. Generate Pinecone API Key:
+    1. Once logged in, navigate to the API Keys section in the Pinecone dashboard.
+    2. Click on Create API Key and copy the generated key.
       
  5. Create a Pinecone Index:
    1. Click on Create Index.
